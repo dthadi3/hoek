@@ -1,0 +1,20 @@
+arch:
+  - amd64
+  - ppc64le
+  
+language: node_js
+
+node_js:
+  - "node"
+  - "lts/*"
+  - "14"
+  - "12"
+
+cache:
+  npm: false
+
+install:
+  - "npm install"
+
+os:
+  - "linux"
